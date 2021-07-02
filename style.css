@@ -1,0 +1,48 @@
+
+body{
+    background-color: black;
+}
+
+#calculator{
+    width: 320px;
+	height: 520px;
+	background-color: #f7fbfd;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#input{
+    height:50px ;
+    background-color: rgb(82, 154, 218);
+    text-align: right;
+}
+#results{
+    height: 50px;
+   background-color: azure;
+   text-align: right;
+   
+}
+#keyboard{
+    
+    height: 400px;
+    
+}
+
+.operator, .number,.empty{
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    display: inline;
+    border-radius: 50px;
+}
+#empty{
+    border-style: none;
+    opacity: unset;
+}
+.operator{
+    background-color: rgb(149, 99, 197);
+}
